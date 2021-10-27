@@ -1,0 +1,22 @@
+import java.util.Arrays;
+public class array_rev {
+    public static void main( String[] args){   
+   
+    int min; // array practice Num4
+    int[] array = { 2,3,4,5};
+    min = array[0];
+    int len = array.length;
+    for (int i = 1; i < len - 1; i = i + 2) {
+         if (i + 1 > len) {
+             if (array[i] < min) min = array[i];
+            }
+         if (array[i] > array[i + 1]) {
+             if (array[i] < min) min = array[i];
+            }
+         if (array[i] < array [i + 1 ]){
+             if (array[i] < min) min = array[i];
+            }
+
+     System.out.println(" Minimum value for the above array = " + min);
+        }
+}
