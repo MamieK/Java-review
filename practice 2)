@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class basic_java {
+    public static void main(String[]args) {
+    
+    int firstNum; // practice Num2
+    int secondNum;
+    
+    System.out. println("Write down first number:" + "  " );
+    Scanner input = new Scanner ( System.in);
+    firstNum = input.nextInt ();
+    System.out. println("Write down second number:" + "  " );
+    secondNum = input.nextInt ();
+    System.out.println("the expected output:" + "  " + (firstNum*secondNum));
+}
