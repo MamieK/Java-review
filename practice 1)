@@ -11,4 +11,5 @@ public class basic_java {
         System.out.println("Write down second number:" + "  " );
         secondNumber = input.nextInt();
         System.out.println(" the Sum of two numbers: " + "  " + (firstNumber +secondNumber));
-}
+   }     
+}  
