@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class basic_java {
+    public static void main(String[]args) {
+    
+    double Fahrenheit; // practice Num5
+    System.out.println(" Write down Fahrenheit:" + "  ");
+    Scanner input = new Scanner(System.in);
+    Fahrenheit = input.nextDouble();
+
+    double  Celsius = (5 *(Fahrenheit - 32.0));
+    System.out.println(Fahrenheit + "  " + " degree Fahrenheit is equal to" + "  " + Celsius + "  "+ "in Celsius");
+    
+  }
+ 
+}
+
