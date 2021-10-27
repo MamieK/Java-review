@@ -1,0 +1,16 @@
+import java.util.Arrays;
+public class array_rev {
+    public static void main( String[] args){
+        int[] array1 = {1,5,4,3,2}; //array practice Num1
+        String[] array2 = { "apple","peach","melon"};
+
+        System.out.println("Original numeric array : "+ Arrays.toString(array1));
+        Arrays.sort(array1);
+        System.out.println("Sorted numeric array : "+ Arrays.toString(array1));
+
+        System.out.println("Original string array : "+ Arrays.toString(array2));
+        Arrays.sort(array2);
+        System.out.println("Sorted numeric array : "+ Arrays.toString(array2));
+       
+  }
+}
