@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class array_rev {
+    public static void main( String[] args){
+    
+    double inches; // arrays practice Num2
+    System.out.println("Write down the inches :");
+    Scanner input = new Scanner(System.in);
+    inches = input.nextDouble();
+        
+    double meters = inches * 0.0254;
+    System.out.println( inches + "  " + " inch is " + "  " + meters + "  " + "meters");  
+        
+    }
+        
+}        
