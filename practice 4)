@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class basic_java {
+    public static void main(String[]args) {
+    int num1 ; //practice Num 4
+    int num2 ;
+    int num3 ;
+
+    System.out.println("Write down first number" + "  " );
+    Scanner input = new Scanner ( System.in);
+    num1 = input.nextInt();
+    System.out.println("Write down second number" + "  " );
+    num2 = input.nextInt();
+    System.out.println("Write down third number" + "  " );
+    num3 = input.nextInt();
+    System.out.println("The average of the numbers:" + "  " + ((num1 + num2 + num3)/3));
+    
+  }
+  
+}
